@@ -1,6 +1,6 @@
 from cryptography.fernet import Fernet
 
-key = b'ntLaRE-8-a81Bqa74aCL6ejFW4hr6ZO9m0fWbDOmys8='
+key = b'ntLaRE-8-a81Bqa74aCL6ejFW4hr6ZO9m0fWbDOmys8=' # Some awesome key
 message = bytes(input('Enter a encrypted message: '), encoding='utf8')
 
 f = Fernet(key)
