@@ -5,7 +5,7 @@ def fibonacci(size):
     num1 = 0
     num2 = 1
     for _ in range(0, size + 1):
-        sequence += str(num1)+', '
+        sequence += str(num1) + ', '
         aux = num1 + num2
         num2 = num1
         num1 = aux
