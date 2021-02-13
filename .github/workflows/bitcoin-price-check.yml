@@ -15,5 +15,5 @@ jobs:
     - uses: actions/setup-python@v2
       with:
         python-version: '3.x'
-    - run: python -m pip install --upgrade pip
-    - run: python bitcoin-price-check.py
+    - run: python3 -m pip3 install --upgrade pip3
+    - run: python3 bitcoin-price-check.py
